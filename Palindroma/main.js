@@ -15,8 +15,6 @@ function isPalindroma(parola) {
     else{
         let f = parola.length-1 ;
         for(let i = 0 ; i < parola.length/2 ; i++ , f--){
-            console.log(f);
-            console.log(i);
             if(parola[i] !== parola[f])
                return false;
         
@@ -31,3 +29,4 @@ console.log(isPalindroma());
 console.log(isPalindroma("osso"));
 console.log(isPalindroma("ciao"));
 console.log(isPalindroma("itopinonavevanonipoti"));
+
